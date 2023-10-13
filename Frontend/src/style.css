@@ -1,0 +1,139 @@
+/* For Hiding Scrollbar */
+.hide-scrollbars {
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.hide-scrollbars::-webkit-scrollbar {
+  display: none; 
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  img {
+    height: 490px;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 769px) {
+  img {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 668px) {
+  img {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 580px) {
+  img {
+    height: 390px;
+  }
+}
+@media screen and (max-width: 481px) {
+  img {
+    height: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1200px) {
+}
+
+.t1 {
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.box {
+  border: 1px solid #eae6e6;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid orange;
+}
+.box-number {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .box-container {
+    flex-direction: column;
+  }
+  .box {
+    padding: 15px;
+  }
+}
+
+
+.premium{
+  justify-content:space-evenly;
+}
+
+
+
+
+
+
+
+/* Style for each section */
+.section {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+/* Contact Us */
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+#plans{
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.cards{
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+  
+
+}
+  
+
+
+.cards:hover{
+
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.02);
+}

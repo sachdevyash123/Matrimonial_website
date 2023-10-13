@@ -1,0 +1,13 @@
+.login:hover {
+  color: #C41E4A !important;
+}
+
+.navbar-toggler {
+  margin-left: auto !important;
+}
+
+.navbar-logo {
+  max-width: 100%;
+  height: auto;
+
+}

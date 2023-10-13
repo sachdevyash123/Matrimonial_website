@@ -1,0 +1,78 @@
+/* ProfilePage.css */
+
+/* Base styles for all screen sizes */
+
+.profile-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    margin-top: 70px;
+  }
+  
+  .profile-header {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    border: 2px solid #007bff;
+  }
+  
+  .profile-details {
+    margin-top: 20px;
+  }
+  
+  .profile-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-details li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  
+  @media screen and (max-width: 600px) {
+    .profile-image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .profile-details h2 {
+      font-size: 20px;
+    }
+    .profiles{
+      margin-top: 90px;
+    }
+  }
+
+  .prof{
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .profiles{
+    margin-top: 90px;
+  }
+
+  #pl{
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  #pl:hover{
+    box-shadow: 3px 10px 25px rgba(89, 74, 186, 0.6);
+  }
+  
+  /* Add more responsive styles as needed for different screen sizes */
+  
